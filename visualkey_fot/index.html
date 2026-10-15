@@ -1,0 +1,52 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ferns of Texas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="content/pivotviewer-0.9.23.min.css" rel="stylesheet" type="text/css" />
+	<link href="content/pivotviewer-0.9.23.templates.min.html" rel="template" id="pv-templates" />
+    <script type="text/javascript" src="scripts/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-1.10.0.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/modernizr.custom.js"></script>
+    <script type="text/javascript" src="scripts/easing.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="scripts/mobiscroll-2.0.2.custom.min.js"></script>
+	<script type="text/javascript" src="scripts/mustache.min.js"></script>
+	<script type="text/javascript" src="scripts/ICanHaz-no-mustache.min.js"></script>
+	<script type="text/javascript" src="scripts/pubsub.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.nouislider.min.js"></script>
+    <script type="text/javascript" src="scripts/pivotviewer-0.9.23.1.min.js"></script>
+</head>
+<body>
+    <div id="pivotviewer"></div>
+    <script type="text/javascript">
+        var debug = true;
+        $(document).ready(function () {
+            $("#pivotviewer").PivotViewer({
+                Loader: new PivotViewer.Models.Loaders.CXMLLoader("FOT_data.cxml"),
+                AnimateBlank: false,
+                ViewerState: "$view$=1&$facet0$=Category",
+				ItemAdornerTemplate: "tile_link_adorner",
+				ItemSelectedTemplate: "tile_link_adorner",
+				AllowItemsCheck: false,
+				CopyToClipboard: true,
+				DisplayFeedback: false,
+				ZoomHelperMaxLevel: 7
+            });
+        });
+    </script>
+	<script type="text/html" id="tile_link_adorner">
+        <ul class="pv-adorner-list">
+            <li>
+                <a href="{{#Item.Facets.Session URL}}{{Href}}{{/Item.Facets.Session URL}}" target="_blank" class="pv-adorner-basiclink">{{#Item.Facets.Session URL}}{{Value}}{{/Item.Facets.Session URL}}</a>
+            </li>
+            {{#Item.Facets.Speaker}}
+            <li>
+                <a href="{{Href}}" target="_blank" class="pv-adorner-basiclink">{{Value}}</a>
+            </li>
+            {{/Item.Facets.Speaker}}
+        </ul>
+    </script>
+</body>
+</html>

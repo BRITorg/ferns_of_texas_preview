@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection MaxLevel="7" TileSize="256" Format="jpg" NextItemId="136" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+  <Items>
+    <I Id="0" N="0" Source="Adiantum-capillus-veneris.dzi">
+      <Size Width="2101" Height="2999" />
+    </I>
+    <I Id="1" N="1" Source="Adiantum-tricholepis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="2" N="2" Source="Anemia-mexicana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="3" N="3" Source="Argyrochosma-dealbata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="4" N="4" Source="Argyrochosma-limitanea-mexicana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="5" N="5" Source="Argyrochosma-microphylla.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="6" N="6" Source="Asplenium-palmeri.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="7" N="7" Source="Asplenium-platyneuron.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="8" N="8" Source="Asplenium-resiliens.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="9" N="9" Source="Asplenium-septentrionale.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="10" N="10" Source="Asplenium-trichomanes-trichomanes.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="11" N="11" Source="Astrolepis-cochisensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="12" N="12" Source="Astrolepis-integerrima.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="13" N="13" Source="Astrolepis-sinuata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="14" N="14" Source="Astrolepis-windhamii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="15" N="15" Source="Athyrium-filix-femina-asplenioides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="16" N="16" Source="Azolla-caroliniana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="17" N="17" Source="Azolla-filiculoides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="18" N="18" Source="Azolla-microphylla.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="19" N="19" Source="Blechnum-appendiculatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="20" N="20" Source="Bommeria-hispida.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="21" N="21" Source="Botrychium-biternatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="22" N="22" Source="Botrychium-dissectum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="23" N="23" Source="Botrychium-lunarioides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="24" N="24" Source="Botrychium-virginianum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="25" N="25" Source="Ceratopteris-thalictroides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="26" N="26" Source="Cheilanthes-aemula.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="27" N="27" Source="Cheilanthes-alabamensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="28" N="28" Source="Cheilanthes-bonariensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="29" N="29" Source="Cheilanthes-eatonii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="30" N="30" Source="Cheilanthes-feei.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="31" N="31" Source="Cheilanthes-fendleri.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="32" N="32" Source="Cheilanthes-horridula.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="33" N="33" Source="Cheilanthes-kaulfussii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="34" N="34" Source="Cheilanthes-lanosa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="35" N="35" Source="Cheilanthes-lendigera.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="36" N="36" Source="Cheilanthes-leucopoda.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="37" N="37" Source="Cheilanthes-lindheimeri.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="38" N="38" Source="Cheilanthes-tomentosa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="39" N="39" Source="Cheilanthes-villosa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="40" N="40" Source="Cheilanthes-wootonii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="41" N="41" Source="Cheilanthes-wrightii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="42" N="42" Source="Cheilanthes-yavapensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="43" N="43" Source="Cyrtomium-falcatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="44" N="44" Source="Cystopteris-bulbifera.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="45" N="45" Source="Cystopteris-protrusa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="46" N="46" Source="Cystopteris-reevesiana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="47" N="47" Source="Cystopteris-utahensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="48" N="48" Source="Dennstaedtia-globulifera.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="49" N="49" Source="Dryopteris-celsa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="50" N="50" Source="Dryopteris-cinnamomea.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="51" N="51" Source="Dryopteris-filix-mas.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="52" N="52" Source="Dryopteris-ludoviciana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="53" N="53" Source="Dryopteris-marginalis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="54" N="54" Source="Equisetum-xferrissii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="55" N="55" Source="Equisetum-arvense.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="56" N="56" Source="Equisetum-hyemale-affine.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="57" N="57" Source="Equisetum-laevigatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="58" N="58" Source="Isoetes-butleri.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="59" N="59" Source="Isoetes-lithophila.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="60" N="60" Source="Isoetes-melanopoda.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="61" N="61" Source="Isoetes-piedmontana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="62" N="62" Source="Isoetes-texana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="63" N="63" Source="Llavea-cordifolia.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="64" N="64" Source="Lycopodiella-alopecuroides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="65" N="65" Source="Lycopodiella-appressa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="66" N="66" Source="Lycopodiella-prostrata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="67" N="67" Source="Lygodium-japonicum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="68" N="68" Source="Macrothelypteris-torresiana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="69" N="69" Source="Marsilea-macropoda.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="70" N="70" Source="Marsilea-mollis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="71" N="71" Source="Marsilea-vestita.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="72" N="72" Source="Nephrolepis-exaltata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="73" N="73" Source="Notholaena-aliena.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="74" N="74" Source="Notholaena-aschenborniana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="75" N="75" Source="Notholaena-copelandii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="76" N="76" Source="Notholaena-grayi-grayi.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="77" N="77" Source="Notholaena-greggii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="78" N="78" Source="Notholaena-nealleyi.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="79" N="79" Source="Notholaena-neglecta.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="80" N="80" Source="Notholaena-standleyi.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="81" N="81" Source="Onoclea-sensibilis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="82" N="82" Source="Ophioglossum-crotalophoroides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="83" N="83" Source="Ophioglossum-englemannii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="84" N="84" Source="Ophioglossum-nudicaule.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="85" N="85" Source="Ophioglossum-petiolatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="86" N="86" Source="Ophioglossum-polyphyllum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="87" N="87" Source="Ophioglossum-vulgatum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="88" N="88" Source="Osmunda-regalis-spectabilis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="89" N="89" Source="Osmundastrum-cinnamomeum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="90" N="90" Source="Palhinhaea-cernua.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="91" N="91" Source="Pellaea-atropurpurea.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="92" N="92" Source="Pellaea-cordifolia.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="93" N="93" Source="Pellaea-glabella-glabella.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="94" N="94" Source="Pellaea-intermedia.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="95" N="95" Source="Pellaea-ovata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="96" N="96" Source="Pellaea-ternifolia.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="97" N="97" Source="Pellaea-truncata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="98" N="98" Source="Pellaea-villosa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="99" N="99" Source="Pellaea-wrightiana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="100" N="100" Source="Phanerophlebia-auriculata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="101" N="101" Source="Phanerophlebia-umbonata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="102" N="102" Source="Phegopteris-hexagonoptera.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="103" N="103" Source="Pilularia-americana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="104" N="104" Source="Pleopeltis-polylepis-erythrolepis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="105" N="105" Source="Pleopeltis-polypodioides-michauxiana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="106" N="106" Source="Pleopeltis-riograndensis.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="107" N="107" Source="Polystichum-acrostichoides.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="108" N="108" Source="Pseudolycopodiella-caroliniana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="109" N="109" Source="Psilotum-nudum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="110" N="110" Source="Pteridium-aquilinum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="111" N="111" Source="Pteris-multifida.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="112" N="112" Source="Pteris-vittata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="113" N="113" Source="Salvinia-minima.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="114" N="114" Source="Salvinia-molesta.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="115" N="115" Source="Selaginella-arizonica.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="116" N="116" Source="Selaginella-corallina.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="117" N="117" Source="Selaginella-lepidophylla.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="118" N="118" Source="Selaginella-peruviana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="119" N="119" Source="Selaginella-pilifera.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="120" N="120" Source="Selaginella-rupincola.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="121" N="121" Source="Selaginella-scopulorum.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="122" N="122" Source="Selaginella-underwoodii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="123" N="123" Source="Selaginella-viridissima.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="124" N="124" Source="Selaginella-wrightii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="125" N="125" Source="Tectaria-heracleifolia.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="126" N="126" Source="Thelypteris-dentata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="127" N="127" Source="Thelypteris-hispidula-versicolor.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="128" N="128" Source="Thelypteris-kunthii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="129" N="129" Source="Thelypteris-ovata-lindheimeri.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="130" N="130" Source="Thelypteris-palustris-pubescens.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="131" N="131" Source="Woodsia-neomexicana.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="132" N="132" Source="Woodsia-obtusa.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="133" N="133" Source="Woodsia-phillipsii.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="134" N="134" Source="Woodwardia-areolata.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+    <I Id="135" N="135" Source="Woodwardia-virginica.dzi">
+      <Size Width="2100" Height="3000" />
+    </I>
+  </Items>
+</Collection>
