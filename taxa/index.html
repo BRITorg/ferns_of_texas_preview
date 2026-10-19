@@ -1,0 +1,1709 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taxa | Ferns of Texas</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/colors.css">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/typography.css">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/spacing.css">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/shape.css">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/fonts.css">
+  <link rel="stylesheet" href="/ferns_of_texas_preview/assets/tokens/base.css">
+  <style>
+    .placeholder-box { display:flex; align-items:center; justify-content:center; text-align:center; background:var(--surface-sunken); color:var(--text-muted); font-family:var(--font-primary); font-size:var(--text-xs); border-radius:var(--radius-xl); }
+    .tile { display:block; padding:var(--space-sm); background:var(--surface-card); border-radius:var(--radius-xl); box-shadow:var(--shadow-xs); text-decoration:none; color:inherit; }
+    .tile-eyebrow { font-family:var(--font-primary); font-size:var(--text-xs); font-weight:700; text-transform:uppercase; letter-spacing:var(--eyebrow-letter-spacing); color:var(--color-secondary-dark); margin-bottom:var(--space-xxxs); }
+  </style>
+</head>
+<body>
+<div style="background:var(--color-accent, #f5c542);color:#000;font-family:var(--font-primary);font-size:var(--text-sm);text-align:center;padding:var(--space-xxs) var(--space-xs);">Preview build — work in progress. Content uses the old nomenclature and some images and features are not yet in place. Not the official site.</div>
+
+<header style="background:var(--surface-card);box-shadow:inset 0 -1px 0 hsla(var(--color-contrast-higher-h),var(--color-contrast-higher-s),var(--color-contrast-higher-l),.1);">
+  <div style="max-width:var(--max-width-xxl);margin:0 auto;padding:var(--space-xs) var(--component-padding);display:flex;align-items:center;justify-content:space-between;gap:var(--space-sm);flex-wrap:wrap;">
+    <a href="/ferns_of_texas_preview/" style="display:flex;align-items:center;flex:none;">
+      <img src="/ferns_of_texas_preview/assets/logo-primary.svg" alt="FWBG" height="34">
+    </a>
+    <nav style="display:flex;align-items:center;gap:var(--space-xs) var(--space-sm);flex-wrap:wrap;">
+      
+      <a href="/ferns_of_texas_preview/taxa/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:700;text-decoration:none;color:var(--color-contrast-higher);">Taxa</a>
+      
+      <a href="/ferns_of_texas_preview/species/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">Species</a>
+      
+      <a href="/ferns_of_texas_preview/visual-key/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">Visual Key</a>
+      
+      <a href="/ferns_of_texas_preview/glossary/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">Glossary</a>
+      
+      <a href="/ferns_of_texas_preview/literature-cited/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">Literature Cited</a>
+      
+      <a href="/ferns_of_texas_preview/authors/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">The Authors</a>
+      
+      <a href="/ferns_of_texas_preview/credits/" style="font-family:var(--font-primary);font-size:var(--text-sm);font-weight:500;text-decoration:none;color:var(--color-contrast-high);">Credits</a>
+      
+    </nav>
+    <a href="/ferns_of_texas_preview/buy-the-book/" style="display:inline-flex;align-items:center;gap:var(--space-xxs);font-family:var(--font-primary);font-weight:700;font-size:var(--text-xs);text-decoration:none;border-radius:var(--btn-radius);padding:var(--space-xxs) var(--space-sm);background:var(--color-accent);color:var(--color-white);border:none;transition:all var(--duration-fast) var(--ease-out);">Buy the Book</a>
+
+  </div>
+</header>
+
+
+
+
+
+<section style="background:var(--surface-page);">
+  <div style="max-width:var(--max-width-xxl);margin:0 auto;padding:var(--space-xl) var(--component-padding);">
+    
+<div style="font-family:var(--font-primary);font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:var(--eyebrow-letter-spacing);color:var(--color-secondary-dark);margin-bottom:var(--space-xxxs);">Browse</div>
+<h1 style="font-family:var(--font-primary);font-weight:700;font-size:var(--text-xxl);color:var(--text-heading);margin:0 0 var(--space-xs);">Ferns and Lycophytes of Texas</h1>
+<p style="font-family:var(--font-primary);font-size:var(--text-md);line-height:var(--body-line-height);color:var(--text-muted);margin:0 0 var(--space-sm);max-width:60ch;">All taxa in one list. Choose how to sort it; the family link opens that family in the TORCH herbaria portal.</p>
+
+    <div id="sort-tabs" role="tablist" style="display:flex;gap:var(--space-xs);margin:var(--space-sm) 0;">
+      <button type="button" data-sort="family" role="tab">By family</button>
+      <button type="button" data-sort="genus" role="tab">By genus</button>
+      <button type="button" data-sort="name" role="tab">A–Z</button>
+    </div>
+    <table id="taxa-table" style="width:100%;border-collapse:collapse;font-family:var(--font-primary);font-size:var(--text-sm);">
+      <thead><tr style="text-align:left;border-bottom:2px solid var(--border-subtle);"><th>Taxon</th><th>Family</th></tr></thead>
+      <tbody>
+      
+        <tr data-family="Anemiaceae" data-genus="Anemia" data-name="Anemia mexicana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/anemia-mexicana/"><em>Anemia mexicana</em></a>
+            <span style="color:var(--text-muted);"> Klotzsch</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Anemiaceae" target="_blank" rel="noopener">Anemiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium palmeri" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-palmeri/"><em>Asplenium palmeri</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium platyneuron" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-platyneuron/"><em>Asplenium platyneuron</em></a>
+            <span style="color:var(--text-muted);"> (L.) Britton, Sterns, &amp; Poggenb.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium resiliens" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-resiliens/"><em>Asplenium resiliens</em></a>
+            <span style="color:var(--text-muted);"> Kunze</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium rhizophyllum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-rhizophyllum/"><em>Asplenium rhizophyllum</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium septentrionale" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-septentrionale/"><em>Asplenium septentrionale</em></a>
+            <span style="color:var(--text-muted);"> (L.) Hoffm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Aspleniaceae" data-genus="Asplenium" data-name="Asplenium trichomanes" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/asplenium-trichomanes/"><em>Asplenium trichomanes</em></a>
+            <span style="color:var(--text-muted);"> L. subsp. trichomanes</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Aspleniaceae" target="_blank" rel="noopener">Aspleniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Athyriaceae" data-genus="Athyrium" data-name="Athyrium asplenioides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/athyrium-asplenioides/"><em>Athyrium asplenioides</em></a>
+            <span style="color:var(--text-muted);"> (Michx.) A.A. Eaton</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Athyriaceae" target="_blank" rel="noopener">Athyriaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Azollaceae" data-genus="Azolla" data-name="Azolla caroliniana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/azolla-caroliniana/"><em>Azolla caroliniana</em></a>
+            <span style="color:var(--text-muted);"> Willd.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Azollaceae" target="_blank" rel="noopener">Azollaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Azollaceae" data-genus="Azolla" data-name="Azolla filiculoides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/azolla-filiculoides/"><em>Azolla filiculoides</em></a>
+            <span style="color:var(--text-muted);"> Lam.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Azollaceae" target="_blank" rel="noopener">Azollaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Azollaceae" data-genus="Azolla" data-name="Azolla microphylla" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/azolla-microphylla/"><em>Azolla microphylla</em></a>
+            <span style="color:var(--text-muted);"> Kaulf.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Azollaceae" target="_blank" rel="noopener">Azollaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Azollaceae" data-genus="Azolla" data-name="Azolla pinnata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/azolla-pinnata/"><em>Azolla pinnata</em></a>
+            <span style="color:var(--text-muted);"> R. Br.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Azollaceae" target="_blank" rel="noopener">Azollaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Blechnaceae" data-genus="Anchistea" data-name="Anchistea virginica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/anchistea-virginica/"><em>Anchistea virginica</em></a>
+            <span style="color:var(--text-muted);"> (L.) C. Presl</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Blechnaceae" target="_blank" rel="noopener">Blechnaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Blechnaceae" data-genus="Blechnum" data-name="Blechnum appendiculatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/blechnum-appendiculatum/"><em>Blechnum appendiculatum</em></a>
+            <span style="color:var(--text-muted);"> Willd.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Blechnaceae" target="_blank" rel="noopener">Blechnaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Blechnaceae" data-genus="Lorinseria" data-name="Lorinseria areolata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/lorinseria-areolata/"><em>Lorinseria areolata</em></a>
+            <span style="color:var(--text-muted);"> (L.) C. Presl</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Blechnaceae" target="_blank" rel="noopener">Blechnaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Cystopteridaceae" data-genus="Cystopteris" data-name="Cystopteris bulbifera" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cystopteris-bulbifera/"><em>Cystopteris bulbifera</em></a>
+            <span style="color:var(--text-muted);"> (L.) Bernh.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Cystopteridaceae" target="_blank" rel="noopener">Cystopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Cystopteridaceae" data-genus="Cystopteris" data-name="Cystopteris fragilis subsp. tenuifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cystopteris-fragilis-subsp-tenuifolia/"><em>Cystopteris fragilis subsp. tenuifolia</em></a>
+            <span style="color:var(--text-muted);"> Clute</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Cystopteridaceae" target="_blank" rel="noopener">Cystopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Cystopteridaceae" data-genus="Cystopteris" data-name="Cystopteris protrusa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cystopteris-protrusa/"><em>Cystopteris protrusa</em></a>
+            <span style="color:var(--text-muted);"> (Weatherby) Blasdell</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Cystopteridaceae" target="_blank" rel="noopener">Cystopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Cystopteridaceae" data-genus="Cystopteris" data-name="Cystopteris utahensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cystopteris-utahensis/"><em>Cystopteris utahensis</em></a>
+            <span style="color:var(--text-muted);"> Windham &amp; Haufler</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Cystopteridaceae" target="_blank" rel="noopener">Cystopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dennstaedtiaceae" data-genus="Dennstaedtia" data-name="Dennstaedtia globulifera" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dennstaedtia-globulifera/"><em>Dennstaedtia globulifera</em></a>
+            <span style="color:var(--text-muted);"> (Poir.) Hieron.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dennstaedtiaceae" target="_blank" rel="noopener">Dennstaedtiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dennstaedtiaceae" data-genus="Pteridium" data-name="Pteridium aquilinum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pteridium-aquilinum/"><em>Pteridium aquilinum</em></a>
+            <span style="color:var(--text-muted);"> (L.) Kuhn</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dennstaedtiaceae" target="_blank" rel="noopener">Dennstaedtiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dennstaedtiaceae" data-genus="Pteridium" data-name="Pteridium aquilinum subsp. latiusculum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Pteridium aquilinum subsp. latiusculum</em>
+            <span style="color:var(--text-muted);"> (Desv.) Hultén</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dennstaedtiaceae" target="_blank" rel="noopener">Dennstaedtiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dennstaedtiaceae" data-genus="Pteridium" data-name="Pteridium aquilinum subsp. pubescens" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Pteridium aquilinum subsp. pubescens</em>
+            <span style="color:var(--text-muted);"> (Underw.) J.A. Thomson, Mickel &amp; Mehltreter</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dennstaedtiaceae" target="_blank" rel="noopener">Dennstaedtiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dennstaedtiaceae" data-genus="Pteridium" data-name="Pteridium pseudocaudatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Pteridium pseudocaudatum</em>
+            <span style="color:var(--text-muted);"> (Clute) Christenh.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dennstaedtiaceae" target="_blank" rel="noopener">Dennstaedtiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Cyrtomium" data-name="Cyrtomium falcatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cyrtomium-falcatum/"><em>Cyrtomium falcatum</em></a>
+            <span style="color:var(--text-muted);"> (L.f.) C. Presl</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Cyrtomium" data-name="Cyrtomium fortunei" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cyrtomium-fortunei/"><em>Cyrtomium fortunei</em></a>
+            <span style="color:var(--text-muted);"> J. Sm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris celsa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-celsa/"><em>Dryopteris celsa</em></a>
+            <span style="color:var(--text-muted);"> (W. Palmer) Knowlton, W. Palmer &amp; Pollard</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris cinnamomea" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-cinnamomea/"><em>Dryopteris cinnamomea</em></a>
+            <span style="color:var(--text-muted);"> (Cav.) C. Chr.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris cristata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-cristata/"><em>Dryopteris cristata</em></a>
+            <span style="color:var(--text-muted);"> (L.) A. Gray</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris filix-mas" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-filix-mas/"><em>Dryopteris filix-mas</em></a>
+            <span style="color:var(--text-muted);"> (L.) Schott</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris ludoviciana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-ludoviciana/"><em>Dryopteris ludoviciana</em></a>
+            <span style="color:var(--text-muted);"> (Kunze) Small</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Dryopteris" data-name="Dryopteris marginalis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/dryopteris-marginalis/"><em>Dryopteris marginalis</em></a>
+            <span style="color:var(--text-muted);"> (L.) A. Gray</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Phanerophlebia" data-name="Phanerophlebia auriculata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/phanerophlebia-auriculata/"><em>Phanerophlebia auriculata</em></a>
+            <span style="color:var(--text-muted);"> Underw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Phanerophlebia" data-name="Phanerophlebia umbonata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/phanerophlebia-umbonata/"><em>Phanerophlebia umbonata</em></a>
+            <span style="color:var(--text-muted);"> Underw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Dryopteridaceae" data-genus="Polystichum" data-name="Polystichum acrostichoides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/polystichum-acrostichoides/"><em>Polystichum acrostichoides</em></a>
+            <span style="color:var(--text-muted);"> (Michx.) Schott</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Dryopteridaceae" target="_blank" rel="noopener">Dryopteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Equisetaceae" data-genus="Equisetum" data-name="Equisetum ×ferrissii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/equisetum-x-ferrissii/"><em>Equisetum ×ferrissii</em></a>
+            <span style="color:var(--text-muted);"> Clute</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Equisetaceae" target="_blank" rel="noopener">Equisetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Equisetaceae" data-genus="Equisetum" data-name="Equisetum arvense" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/equisetum-arvense/"><em>Equisetum arvense</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Equisetaceae" target="_blank" rel="noopener">Equisetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Equisetaceae" data-genus="Equisetum" data-name="Equisetum laevigatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/equisetum-laevigatum/"><em>Equisetum laevigatum</em></a>
+            <span style="color:var(--text-muted);"> A.Braun</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Equisetaceae" target="_blank" rel="noopener">Equisetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Equisetaceae" data-genus="Equisetum" data-name="Equisetum praealtum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/equisetum-praealtum/"><em>Equisetum praealtum</em></a>
+            <span style="color:var(--text-muted);"> Raf.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Equisetaceae" target="_blank" rel="noopener">Equisetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Isoetaceae" data-genus="Isoëtes" data-name="Isoëtes butleri" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/isoetes-butleri/"><em>Isoëtes butleri</em></a>
+            <span style="color:var(--text-muted);"> Engelm</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Isoetaceae" target="_blank" rel="noopener">Isoetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Isoetaceae" data-genus="Isoëtes" data-name="Isoëtes lithophila" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/isoetes-lithophila/"><em>Isoëtes lithophila</em></a>
+            <span style="color:var(--text-muted);"> N. Pfeiff</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Isoetaceae" target="_blank" rel="noopener">Isoetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Isoetaceae" data-genus="Isoëtes" data-name="Isoëtes melanopoda" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/isoetes-melanopoda/"><em>Isoëtes melanopoda</em></a>
+            <span style="color:var(--text-muted);"> J. Gay &amp; Durieu ex Durieu</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Isoetaceae" target="_blank" rel="noopener">Isoetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Isoetaceae" data-genus="Isoëtes" data-name="Isoëtes piedmontana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/isoetes-piedmontana/"><em>Isoëtes piedmontana</em></a>
+            <span style="color:var(--text-muted);"> (N. Pfeiff.) C.F. Reed</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Isoetaceae" target="_blank" rel="noopener">Isoetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Isoetaceae" data-genus="Isoëtes" data-name="Isoëtes texana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/isoetes-texana/"><em>Isoëtes texana</em></a>
+            <span style="color:var(--text-muted);"> Singhurst, A.E. Rushing, &amp; W.C. Holmes</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Isoetaceae" target="_blank" rel="noopener">Isoetaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lomariopsidaceae" data-genus="Nephrolepis" data-name="Nephrolepis exaltata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/nephrolepis-exaltata/"><em>Nephrolepis exaltata</em></a>
+            <span style="color:var(--text-muted);"> (L.) Schott</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lomariopsidaceae" target="_blank" rel="noopener">Lomariopsidaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lycopodiaceae" data-genus="Lycopodiella" data-name="Lycopodiella alopecuroides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/lycopodiella-alopecuroides/"><em>Lycopodiella alopecuroides</em></a>
+            <span style="color:var(--text-muted);"> (L.) Cranfill</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lycopodiaceae" target="_blank" rel="noopener">Lycopodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lycopodiaceae" data-genus="Lycopodiella" data-name="Lycopodiella appressa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/lycopodiella-appressa/"><em>Lycopodiella appressa</em></a>
+            <span style="color:var(--text-muted);"> (Chapm.) Cranfill</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lycopodiaceae" target="_blank" rel="noopener">Lycopodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lycopodiaceae" data-genus="Lycopodiella" data-name="Lycopodiella prostrata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/lycopodiella-prostrata/"><em>Lycopodiella prostrata</em></a>
+            <span style="color:var(--text-muted);"> (R.M. Harper) Cranfill</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lycopodiaceae" target="_blank" rel="noopener">Lycopodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lycopodiaceae" data-genus="Palhinhaea" data-name="Palhinhaea cernua" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/palhinhaea-cernua/"><em>Palhinhaea cernua</em></a>
+            <span style="color:var(--text-muted);"> (L.) Vasc. &amp; Franco</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lycopodiaceae" target="_blank" rel="noopener">Lycopodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lycopodiaceae" data-genus="Pseudolycopodiella" data-name="Pseudolycopodiella caroliniana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pseudolycopodiella-caroliniana/"><em>Pseudolycopodiella caroliniana</em></a>
+            <span style="color:var(--text-muted);"> (L.) Holub</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lycopodiaceae" target="_blank" rel="noopener">Lycopodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Lygodiaceae" data-genus="Lygodium" data-name="Lygodium japonicum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/lygodium-japonicum/"><em>Lygodium japonicum</em></a>
+            <span style="color:var(--text-muted);"> (Thunb.) Sw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Lygodiaceae" target="_blank" rel="noopener">Lygodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Marsileaceae" data-genus="Marsilea" data-name="Marsilea macropoda" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/marsilea-macropoda/"><em>Marsilea macropoda</em></a>
+            <span style="color:var(--text-muted);"> Engelm. ex A. Braun</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Marsileaceae" target="_blank" rel="noopener">Marsileaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Marsileaceae" data-genus="Marsilea" data-name="Marsilea mollis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/marsilea-mollis/"><em>Marsilea mollis</em></a>
+            <span style="color:var(--text-muted);"> B.L. Robinson &amp; Fernald</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Marsileaceae" target="_blank" rel="noopener">Marsileaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Marsileaceae" data-genus="Marsilea" data-name="Marsilea mutica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/marsilea-mutica/"><em>Marsilea mutica</em></a>
+            <span style="color:var(--text-muted);"> Mett.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Marsileaceae" target="_blank" rel="noopener">Marsileaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Marsileaceae" data-genus="Marsilea" data-name="Marsilea vestita" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/marsilea-vestita/"><em>Marsilea vestita</em></a>
+            <span style="color:var(--text-muted);"> Hook. &amp; Grev.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Marsileaceae" target="_blank" rel="noopener">Marsileaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Marsileaceae" data-genus="Pilularia" data-name="Pilularia americana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pilularia-americana/"><em>Pilularia americana</em></a>
+            <span style="color:var(--text-muted);"> A. Braun</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Marsileaceae" target="_blank" rel="noopener">Marsileaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Onocleaceae" data-genus="Onoclea" data-name="Onoclea sensibilis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/onoclea-sensibilis/"><em>Onoclea sensibilis</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Onocleaceae" target="_blank" rel="noopener">Onocleaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Botrypus" data-name="Botrypus virginianus" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/botrypus-virginianus/"><em>Botrypus virginianus</em></a>
+            <span style="color:var(--text-muted);"> (L.) Michx.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum crotalophoroides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-crotalophoroides/"><em>Ophioglossum crotalophoroides</em></a>
+            <span style="color:var(--text-muted);"> Walter</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum engelmannii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-engelmannii/"><em>Ophioglossum engelmannii</em></a>
+            <span style="color:var(--text-muted);"> Prantl</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum nudicaule" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-nudicaule/"><em>Ophioglossum nudicaule</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum petiolatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-petiolatum/"><em>Ophioglossum petiolatum</em></a>
+            <span style="color:var(--text-muted);"> Hook.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum polyphyllum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-polyphyllum/"><em>Ophioglossum polyphyllum</em></a>
+            <span style="color:var(--text-muted);"> A. Braun ex Schub.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Ophioglossum" data-name="Ophioglossum pusillum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ophioglossum-pusillum/"><em>Ophioglossum pusillum</em></a>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Sceptridium" data-name="Sceptridium biternatum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/sceptridium-biternatum/"><em>Sceptridium biternatum</em></a>
+            <span style="color:var(--text-muted);"> (Savigny) Lyon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Sceptridium" data-name="Sceptridium dissectum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/sceptridium-dissectum/"><em>Sceptridium dissectum</em></a>
+            <span style="color:var(--text-muted);"> (Spreng.) Lyon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Ophioglossaceae" data-genus="Sceptridium" data-name="Sceptridium lunarioides" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/sceptridium-lunarioides/"><em>Sceptridium lunarioides</em></a>
+            <span style="color:var(--text-muted);"> (Michx.) Holub</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Ophioglossaceae" target="_blank" rel="noopener">Ophioglossaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Osmundaceae" data-genus="Osmunda" data-name="Osmunda spectabilis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/osmunda-spectabilis/"><em>Osmunda spectabilis</em></a>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Osmundaceae" target="_blank" rel="noopener">Osmundaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Osmundaceae" data-genus="Osmundastrum" data-name="Osmundastrum cinnamomeum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/osmundastrum-cinnamomeum/"><em>Osmundastrum cinnamomeum</em></a>
+            <span style="color:var(--text-muted);"> (L.) C. Presl</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Osmundaceae" target="_blank" rel="noopener">Osmundaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Polypodiaceae" data-genus="Pleopeltis" data-name="Pleopeltis michauxiana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pleopeltis-michauxiana/"><em>Pleopeltis michauxiana</em></a>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Polypodiaceae" target="_blank" rel="noopener">Polypodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Polypodiaceae" data-genus="Pleopeltis" data-name="Pleopeltis polylepis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pleopeltis-polylepis/"><em>Pleopeltis polylepis</em></a>
+            <span style="color:var(--text-muted);"> (Roem. ex Kunze) T. Moore var. erythrolepis (Weath.) T. Wendt</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Polypodiaceae" target="_blank" rel="noopener">Polypodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Polypodiaceae" data-genus="Pleopeltis" data-name="Pleopeltis riograndensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pleopeltis-riograndensis/"><em>Pleopeltis riograndensis</em></a>
+            <span style="color:var(--text-muted);"> (T. Wendt) E.G. Andrews &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Polypodiaceae" target="_blank" rel="noopener">Polypodiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Psilotaceae" data-genus="Psilotum" data-name="Psilotum nudum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/psilotum-nudum/"><em>Psilotum nudum</em></a>
+            <span style="color:var(--text-muted);"> (L.) P. Beauv.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Psilotaceae" target="_blank" rel="noopener">Psilotaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Adiantum" data-name="Adiantum capillus-veneris" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/adiantum-capillus-veneris/"><em>Adiantum capillus-veneris</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Adiantum" data-name="Adiantum tricholepis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/adiantum-tricholepis/"><em>Adiantum tricholepis</em></a>
+            <span style="color:var(--text-muted);"> Fee</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Argyrochosma" data-name="Argyrochosma dealbata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/argyrochosma-dealbata/"><em>Argyrochosma dealbata</em></a>
+            <span style="color:var(--text-muted);"> (Pursh) Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Argyrochosma" data-name="Argyrochosma limitanea" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/argyrochosma-limitanea/"><em>Argyrochosma limitanea</em></a>
+            <span style="color:var(--text-muted);"> (Maxon) Windham subsp. mexicana (Maxon) Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Argyrochosma" data-name="Argyrochosma microphylla" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/argyrochosma-microphylla/"><em>Argyrochosma microphylla</em></a>
+            <span style="color:var(--text-muted);"> (Mett. ex Kuhn) Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis cochisensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/astrolepis-cochisensis/"><em>Astrolepis cochisensis</em></a>
+            <span style="color:var(--text-muted);"> (Goodd.) D.M. Benham &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis cochisensis subsp. chihuahuensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Astrolepis cochisensis subsp. chihuahuensis</em>
+            <span style="color:var(--text-muted);"> D.M. Benham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis cochisensis subsp. cochisensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Astrolepis cochisensis subsp. cochisensis</em>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis integerrima" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/astrolepis-integerrima/"><em>Astrolepis integerrima</em></a>
+            <span style="color:var(--text-muted);"> (Hook.) D.M. Benham &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis sinuata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/astrolepis-sinuata/"><em>Astrolepis sinuata</em></a>
+            <span style="color:var(--text-muted);"> (Lag. ex Sw.) D.M. Benham &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis sinuata subsp. mexicana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Astrolepis sinuata subsp. mexicana</em>
+            <span style="color:var(--text-muted);"> D.M. Benham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis sinuata subsp. sinuata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Astrolepis sinuata subsp. sinuata</em>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Astrolepis" data-name="Astrolepis windhamii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/astrolepis-windhamii/"><em>Astrolepis windhamii</em></a>
+            <span style="color:var(--text-muted);"> D.M. Benham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Bommeria" data-name="Bommeria hispida" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/bommeria-hispida/"><em>Bommeria hispida</em></a>
+            <span style="color:var(--text-muted);"> (Mett. ex Kuhn) Underw</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Ceratopteris" data-name="Ceratopteris richardii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/ceratopteris-richardii/"><em>Ceratopteris richardii</em></a>
+            <span style="color:var(--text-muted);"> Brongn.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Cheilanthes" data-name="Cheilanthes leucopoda" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/cheilanthes-leucopoda/"><em>Cheilanthes leucopoda</em></a>
+            <span style="color:var(--text-muted);"> Link</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Gaga" data-name="Gaga kaulfussii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/gaga-kaulfussii/"><em>Gaga kaulfussii</em></a>
+            <span style="color:var(--text-muted);"> (Kunze) Fay W. Li &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Llavea" data-name="Llavea cordifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/llavea-cordifolia/"><em>Llavea cordifolia</em></a>
+            <span style="color:var(--text-muted);"> Lag.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris aemula" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-aemula/"><em>Myriopteris aemula</em></a>
+            <span style="color:var(--text-muted);"> (Maxon) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris alabamensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-alabamensis/"><em>Myriopteris alabamensis</em></a>
+            <span style="color:var(--text-muted);"> (Buckley) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris aurea" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-aurea/"><em>Myriopteris aurea</em></a>
+            <span style="color:var(--text-muted);"> (Poir.) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris fendleri" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-fendleri/"><em>Myriopteris fendleri</em></a>
+            <span style="color:var(--text-muted);"> E. Fourn.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris gracilis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-gracilis/"><em>Myriopteris gracilis</em></a>
+            <span style="color:var(--text-muted);"> Fée</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris lanosa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-lanosa/"><em>Myriopteris lanosa</em></a>
+            <span style="color:var(--text-muted);"> (Michx.) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris lendigera" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-lendigera/"><em>Myriopteris lendigera</em></a>
+            <span style="color:var(--text-muted);"> (Cav.) J. Sm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris lindheimeri" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-lindheimeri/"><em>Myriopteris lindheimeri</em></a>
+            <span style="color:var(--text-muted);"> J. Sm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris rufa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-rufa/"><em>Myriopteris rufa</em></a>
+            <span style="color:var(--text-muted);"> Fée</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris scabra" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-scabra/"><em>Myriopteris scabra</em></a>
+            <span style="color:var(--text-muted);"> Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris tomentosa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-tomentosa/"><em>Myriopteris tomentosa</em></a>
+            <span style="color:var(--text-muted);"> Fée</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris villosa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-villosa/"><em>Myriopteris villosa</em></a>
+            <span style="color:var(--text-muted);"> Fée</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris wootonii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-wootonii/"><em>Myriopteris wootonii</em></a>
+            <span style="color:var(--text-muted);"> (Maxon) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris wrightii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-wrightii/"><em>Myriopteris wrightii</em></a>
+            <span style="color:var(--text-muted);"> (Maxon) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Myriopteris" data-name="Myriopteris yavapensis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/myriopteris-yavapensis/"><em>Myriopteris yavapensis</em></a>
+            <span style="color:var(--text-muted);"> (T. Reeves ex Windham) Grusz &amp; Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena aliena" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-aliena/"><em>Notholaena aliena</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena aschenborniana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-aschenborniana/"><em>Notholaena aschenborniana</em></a>
+            <span style="color:var(--text-muted);"> Klotzsch</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena copelandii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-copelandii/"><em>Notholaena copelandii</em></a>
+            <span style="color:var(--text-muted);"> C.C. Hall</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena grayi" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-grayi/"><em>Notholaena grayi</em></a>
+            <span style="color:var(--text-muted);"> Davenp. subsp. grayi</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena greggii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-greggii/"><em>Notholaena greggii</em></a>
+            <span style="color:var(--text-muted);"> (Mett. ex Kuhn) Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena nealleyi" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-nealleyi/"><em>Notholaena nealleyi</em></a>
+            <span style="color:var(--text-muted);"> Seaton ex J.M. Coult.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena neglecta" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-neglecta/"><em>Notholaena neglecta</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Notholaena" data-name="Notholaena standleyi" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/notholaena-standleyi/"><em>Notholaena standleyi</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea ×gooddingii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-x-gooddingii/"><em>Pellaea ×gooddingii</em></a>
+            <span style="color:var(--text-muted);"> Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea atropurpurea" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-atropurpurea/"><em>Pellaea atropurpurea</em></a>
+            <span style="color:var(--text-muted);"> (L.) Link</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea cordifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-cordifolia/"><em>Pellaea cordifolia</em></a>
+            <span style="color:var(--text-muted);"> (Sesse &amp; Moc.) A.R. Sm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea glabella" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-glabella/"><em>Pellaea glabella</em></a>
+            <span style="color:var(--text-muted);"> Mett. ex Kuhn. subsp. glabella</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea intermedia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-intermedia/"><em>Pellaea intermedia</em></a>
+            <span style="color:var(--text-muted);"> Mett. ex Kuhn</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea ovata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-ovata/"><em>Pellaea ovata</em></a>
+            <span style="color:var(--text-muted);"> (Desv.) Weath.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea ternifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-ternifolia/"><em>Pellaea ternifolia</em></a>
+            <span style="color:var(--text-muted);"> (Cav.) Link</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea ternifolia subsp. arizonica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Pellaea ternifolia subsp. arizonica</em>
+            <span style="color:var(--text-muted);"> Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea ternifolia subsp. ternifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Pellaea ternifolia subsp. ternifolia</em>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea truncata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-truncata/"><em>Pellaea truncata</em></a>
+            <span style="color:var(--text-muted);"> Goodd.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea villosa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-villosa/"><em>Pellaea villosa</em></a>
+            <span style="color:var(--text-muted);"> (Windham) Windham &amp; Yatsk.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pellaea" data-name="Pellaea wrightiana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pellaea-wrightiana/"><em>Pellaea wrightiana</em></a>
+            <span style="color:var(--text-muted);"> Hook.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pteris" data-name="Pteris multifida" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pteris-multifida/"><em>Pteris multifida</em></a>
+            <span style="color:var(--text-muted);"> Poir.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Pteridaceae" data-genus="Pteris" data-name="Pteris vittata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pteris-vittata/"><em>Pteris vittata</em></a>
+            <span style="color:var(--text-muted);"> L.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Pteridaceae" target="_blank" rel="noopener">Pteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Salviniaceae" data-genus="Salvinia" data-name="Salvinia minima" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/salvinia-minima/"><em>Salvinia minima</em></a>
+            <span style="color:var(--text-muted);"> Baker</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Salviniaceae" target="_blank" rel="noopener">Salviniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Salviniaceae" data-genus="Salvinia" data-name="Salvinia molesta" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/salvinia-molesta/"><em>Salvinia molesta</em></a>
+            <span style="color:var(--text-muted);"> D.S. Mitch.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Salviniaceae" target="_blank" rel="noopener">Salviniaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella ×neomexicana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-x-neomexicana/"><em>Selaginella ×neomexicana</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella apoda" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-apoda/"><em>Selaginella apoda</em></a>
+            <span style="color:var(--text-muted);"> (L.) C. Morren var. apoda</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella arizonica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-arizonica/"><em>Selaginella arizonica</em></a>
+            <span style="color:var(--text-muted);"> Maxon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella corallina" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-corallina/"><em>Selaginella corallina</em></a>
+            <span style="color:var(--text-muted);"> (Riddell) Wilbur &amp; Whitson</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella densa var. scopulorum" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-densa-var-scopulorum/"><em>Selaginella densa var. scopulorum</em></a>
+            <span style="color:var(--text-muted);"> (Maxon) R.M. Tryon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella lepidophylla" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-lepidophylla/"><em>Selaginella lepidophylla</em></a>
+            <span style="color:var(--text-muted);"> (Hook. &amp; Grev.) Spring</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella mutica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-mutica/"><em>Selaginella mutica</em></a>
+            <span style="color:var(--text-muted);"> D.C. Eaton ex Underw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella mutica var. limitanea" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Selaginella mutica var. limitanea</em>
+            <span style="color:var(--text-muted);"> Weath.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella mutica var. mutica" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Selaginella mutica var. mutica</em>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella peruviana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-peruviana/"><em>Selaginella peruviana</em></a>
+            <span style="color:var(--text-muted);"> (Milde) Hieron.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella pilifera" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-pilifera/"><em>Selaginella pilifera</em></a>
+            <span style="color:var(--text-muted);"> A. Braun</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella rupincola" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-rupincola/"><em>Selaginella rupincola</em></a>
+            <span style="color:var(--text-muted);"> Underw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella underwoodii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-underwoodii/"><em>Selaginella underwoodii</em></a>
+            <span style="color:var(--text-muted);"> Hieron.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella viridissima" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-viridissima/"><em>Selaginella viridissima</em></a>
+            <span style="color:var(--text-muted);"> Weath.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Selaginellaceae" data-genus="Selaginella" data-name="Selaginella wrightii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/selaginella-wrightii/"><em>Selaginella wrightii</em></a>
+            <span style="color:var(--text-muted);"> Hieron.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Selaginellaceae" target="_blank" rel="noopener">Selaginellaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Tectariaceae" data-genus="Tectaria" data-name="Tectaria heracleifolia" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/tectaria-heracleifolia/"><em>Tectaria heracleifolia</em></a>
+            <span style="color:var(--text-muted);"> (Willd.) Underw.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Tectariaceae" target="_blank" rel="noopener">Tectariaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Christella" data-name="Christella dentata" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/christella-dentata/"><em>Christella dentata</em></a>
+            <span style="color:var(--text-muted);"> (Forssk.) Brownsey &amp; Jermy</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Christella" data-name="Christella hispidula" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/christella-hispidula/"><em>Christella hispidula</em></a>
+            <span style="color:var(--text-muted);"> (Decne.) Holttum</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Macrothelypteris" data-name="Macrothelypteris torresiana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/macrothelypteris-torresiana/"><em>Macrothelypteris torresiana</em></a>
+            <span style="color:var(--text-muted);"> (Gaudich.) Ching</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Pelazoneuron" data-name="Pelazoneuron kunthii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pelazoneuron-kunthii/"><em>Pelazoneuron kunthii</em></a>
+            <span style="color:var(--text-muted);"> (Desv.) A.R. Sm. &amp; S.E. Fawc.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Pelazoneuron" data-name="Pelazoneuron ovatum var. lindheimeri" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/pelazoneuron-ovatum-var-lindheimeri/"><em>Pelazoneuron ovatum var. lindheimeri</em></a>
+            <span style="color:var(--text-muted);"> (C. Chr.) A.R. Sm.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Phegopteris" data-name="Phegopteris hexagonoptera" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/phegopteris-hexagonoptera/"><em>Phegopteris hexagonoptera</em></a>
+            <span style="color:var(--text-muted);"> (Michx.) Fee,</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Thelypteridaceae" data-genus="Thelypteris" data-name="Thelypteris palustris" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/thelypteris-palustris/"><em>Thelypteris palustris</em></a>
+            <span style="color:var(--text-muted);"> Schott var. pubescens (G. Lawson) Fernald</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Thelypteridaceae" target="_blank" rel="noopener">Thelypteridaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia neomexicana" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/woodsia-neomexicana/"><em>Woodsia neomexicana</em></a>
+            <span style="color:var(--text-muted);"> Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia obtusa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/woodsia-obtusa/"><em>Woodsia obtusa</em></a>
+            <span style="color:var(--text-muted);"> (Spreng.) Torr.</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia obtusa subsp. obtusa" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Woodsia obtusa subsp. obtusa</em>
+            
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia obtusa subsp. occidentalis" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <em>Woodsia obtusa subsp. occidentalis</em>
+            <span style="color:var(--text-muted);"> Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia phillipsii" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/woodsia-phillipsii/"><em>Woodsia phillipsii</em></a>
+            <span style="color:var(--text-muted);"> Windham</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+        <tr data-family="Woodsiaceae" data-genus="Woodsia" data-name="Woodsia plummerae" style="border-bottom:1px solid var(--border-subtle);">
+          <td style="padding:var(--space-xxs) var(--space-xs) var(--space-xxs) 0;">
+            <a href="/ferns_of_texas_preview/species/woodsia-plummerae/"><em>Woodsia plummerae</em></a>
+            <span style="color:var(--text-muted);"> Lemmon</span>
+          </td>
+          <td style="padding:var(--space-xxs) 0;">
+            <a href="https://portal.torcherbaria.org/portal/taxa/index.php?taxon=Woodsiaceae" target="_blank" rel="noopener">Woodsiaceae<span aria-hidden="true"> ↗</span><span style="position:absolute;left:-9999px;"> (external link, opens in a new tab)</span></a>
+          </td>
+        </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</section>
+<script>
+(function () {
+  var body = document.querySelector('#taxa-table tbody');
+  var rows = Array.prototype.slice.call(body.rows);
+  var tabs = document.querySelectorAll('#sort-tabs button');
+  var keys = { family: ['family', 'name'], genus: ['genus', 'name'], name: ['name'] };
+  function apply(sort) {
+    if (!keys[sort]) sort = 'family';
+    rows.sort(function (a, b) {
+      for (var i = 0; i < keys[sort].length; i++) {
+        var k = keys[sort][i], c = a.dataset[k].localeCompare(b.dataset[k]);
+        if (c) return c;
+      }
+      return 0;
+    }).forEach(function (r) { body.appendChild(r); });
+    Array.prototype.forEach.call(tabs, function (t) {
+      var on = t.dataset.sort === sort;
+      t.setAttribute('aria-selected', on);
+      t.style.fontWeight = on ? '700' : '400';
+    });
+    var url = new URL(location.href); url.searchParams.set('sort', sort);
+    history.replaceState(null, '', url);
+  }
+  Array.prototype.forEach.call(tabs, function (t) {
+    t.addEventListener('click', function () { apply(t.dataset.sort); });
+  });
+  apply(new URL(location.href).searchParams.get('sort'));
+})();
+</script>
+
+
+
+
+<footer style="background:var(--surface-inverse);">
+  <div style="max-width:var(--max-width-xxl);margin:0 auto;padding:var(--space-lg) var(--component-padding);display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-lg);flex-wrap:wrap;">
+    <div style="display:flex;flex-direction:column;gap:var(--space-xs);align-items:flex-start;">
+      <img src="/ferns_of_texas_preview/assets/logo-reversed.svg" alt="FWBG" height="40">
+      <p style="margin:0;font-family:var(--font-primary);font-size:var(--text-sm);color:var(--color-bg);opacity:.85;max-width:44ch;">A companion site to <em>The Ferns and Lycophytes of Texas</em>, produced in partnership with the Botanical Research Institute of Texas (BRIT).</p>
+    </div>
+    <div style="font-family:var(--font-primary);font-size:var(--text-xs);color:var(--color-bg);opacity:.7;">© Botanical Research Institute of Texas — <a href="https://www.brit.org" style="color:inherit;">brit.org</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
